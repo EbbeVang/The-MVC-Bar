@@ -70,7 +70,19 @@
                </VBox.margin>
                <font>
                   <Font name="System Bold" size="35.0" />
-               </font></Button>
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#serveDrink" text="Serve!">
+               <padding>
+                  <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Button>
          </children>
       </VBox>
    </right>
